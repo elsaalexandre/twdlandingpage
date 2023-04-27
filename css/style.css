@@ -1,0 +1,92 @@
+body{
+    font-family: 'Barlow', sans-serif;
+    font-size: 30px;
+    margin: 0;
+    overflow: hidden;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+#video{
+    position: sticky;
+    z-index: -1;
+    }
+
+#logo{
+    position: relative;
+    top:165px;
+    left: 50%;
+    transform: translate(-50%, 00%);
+    text-align: center;
+    }
+
+.text{
+    position: relative;
+    top: 207px;
+    left: 50%;
+    transform: translate(-50%, 00%);
+    text-align: center;
+    color: #9ff;
+    }    
+
+h1{
+    font-size: 1.6em;
+    color: white;
+    } 
+
+p{
+    line-height: 1.45em; 
+    color: #9ff;
+    }
+
+#mail{
+    position: absolute;
+    left: 50%;
+    bottom: 60px;
+    transform: translateX(-50%);  
+    background-color: #9ff; 
+    border: none;
+    border-radius: 20px;
+    color:black;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;  
+    cursor: pointer;   
+    }
+
+#linkedin {
+    position: absolute;
+    left: 100px;
+    bottom: 50px;
+    font-size: 1.2em;
+    cursor: pointer;  
+    }    
+
+#github {
+    position: absolute;
+    right: 100px;
+    bottom: 50px;
+    font-size: 1.2em;
+    cursor: pointer;   
+    }
+
+#mail:hover {
+    background-color: transparent; 
+    color: #9ff;
+    font-size: 1.2em;
+    cursor: pointer; 
+    }
+
+#linkedin:hover, #github:hover{
+    font-size: 2em;
+    cursor: pointer;
+    }
+
+.animate__animated.animate__zoomIn {
+    --animate-delay: 2s;
+    --animate-duration: 2s;
+    }
+
+
+    
